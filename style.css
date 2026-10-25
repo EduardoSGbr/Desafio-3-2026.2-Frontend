@@ -1,0 +1,21 @@
+/* Customiza a barra de rolagem para combinar com o tema da EngNet */
+::-webkit-scrollbar {
+    width: 8px; /* Deixa a barra mais fina e elegante */
+}
+
+/* Fundo da calha da barra */
+::-webkit-scrollbar-track {
+    background: #fff7ed; /* Laranja muito claro (orange-50 do Tailwind) */
+    border-radius: 8px;
+}
+
+/* O puxador da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background: #f97316; /* Laranja oficial da EngNet (orange-500 do Tailwind) */
+    border-radius: 8px;
+}
+
+/* Quando se passa o rato por cima do puxador */
+::-webkit-scrollbar-thumb:hover {
+    background: #ea580c; /* Laranja ligeiramente mais escuro (orange-600) */
+}
